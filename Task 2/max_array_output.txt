@@ -1,0 +1,15 @@
+bbl loader
+===== RISC-V Proof Header =====
+User      : bhagavathy
+Host      : bhagavathy-VirtualBox
+MachineID : 42f97c9931d4445e
+BuildUTC  : 2025-08-09T15:42:13Z
+BuildEpoch: 1754754133
+Version   : 8.3.0
+Time/Date : Thu Jan  1 00:00:00 1970
+
+Program   : max_array
+ProofID   : 0x6cbd5afbbf77635f
+RunID     : 0xff55e9f1338d177d
+================================
+Array length=9, Max=88
