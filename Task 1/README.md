@@ -19,7 +19,7 @@ A simple C program (`unique_test.c`) was written and compiled to verify the end-
 
 ## Source File:
 
-[unique_test.c](https://github.com/RVB-05/vsdRiscvSoc/blob/main/unique_test.c)
+[unique_test.c](https://github.com/RVB-05/vsdRiscvSoc/blob/main/Task%201/unique_test.c)
 
 ## Compile command:
 
