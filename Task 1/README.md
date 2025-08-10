@@ -1,18 +1,18 @@
 This task involved setting up the RISC-V toolchain on Ubuntu 22.04 (VirtualBox VM), installing necessary developer tools, building the Spike RISC-V ISA Simulator and proxy kernel (pk), and verifying the setup by compiling and running a minimal uniqueness test program on Spike.
 
 ## Setup Summary
-Installed core development tools: gcc, make, binutils, build-essential
-Installed build utilities: autoconf, automake, libtool, bison, flex
-Installed essential libraries: libmpc-dev, libmpfr-dev, libgmp-dev, zlib1g-dev
-Installed other useful utilities: git, curl, vim, gtkwave
-Prepared the environment for successful compilation and simulation of RISC-V programs
-Downloaded and extracted SiFive prebuilt RISC-V GCC toolchain (version 8.3.0)
-Configured PATH environment variable for toolchain accessibility
-Installed Device Tree Compiler (dtc)
-Cloned and built Spike RISC-V simulator
-Cloned and built Proxy Kernel (pk)
-Installed Icarus Verilog simulator
-Verified tool versions and paths
+- Installed core development tools: gcc, make, binutils, build-essential.
+- Installed build utilities: autoconf, automake, libtool, bison, flex.
+- Installed essential libraries: libmpc-dev, libmpfr-dev, libgmp-dev, zlib1g-dev.
+- Installed other useful utilities: git, curl, vim, gtkwave.
+- Prepared the environment for successful compilation and simulation of RISC-V programs.
+- Downloaded and extracted SiFive prebuilt RISC-V GCC toolchain (version 8.3.0).
+- Configured PATH environment variable for toolchain accessibility.
+- Installed Device Tree Compiler (dtc).
+- Cloned and built Spike RISC-V simulator.
+- Cloned and built Proxy Kernel (pk).
+- Installed Icarus Verilog simulator.
+- Verified tool versions and paths.
 
 ## Uniqueness Test
 A simple C program (`unique_test.c`) was written and compiled to verify the end-to-end RISC-V toolchain and simulator setup. The program prints a **unique ID derived from the compile-time username and hostname**, confirming successful build and execution on Spike.
